@@ -1,6 +1,92 @@
-/* flex containers */
+html{
+    /*background-color: rgb(251, 223, 244);*/
+    background-image: linear-gradient(rgb(186, 81, 98), rgb(217, 150, 172));
+} 
+
 body{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+    font-size: 20pt;
+    width: 750px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(228, 166, 202);
+    box-shadow: 0 0 0 2px black;
+    
+    /*background-image: linear-gradient(rgb(186, 81, 98), rgb(217, 150, 172));*/
+}
+.option button{
+    font-weight: 200;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border: solid 2px black;
+    border-radius: 4px; 
+    background-color: rgb(226, 149, 164);
+    text-decoration: none;
+}
+}
+@media screen and (max-width: 750px) {
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13pt;
+    margin: 40px;
+    width: 450px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(228, 166, 202);
+    box-shadow: 0 0 0 2px black;
+    /*background-image: linear-gradient(rgb(186, 81, 98), rgb(217, 150, 172));*/
+}
+}
+
+
+#quote{
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.option {
+    text-align: center;
+}
+
+.option button{
+    font-weight: 200;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border: solid 2px black;
+    border-radius: 4px;
+    background-color: rgb(226, 149, 164);
+    text-decoration: none;
+}
+
+.options button:hover{
+    background-color: rgb(226, 149, 164);
+    color: black;
 }
