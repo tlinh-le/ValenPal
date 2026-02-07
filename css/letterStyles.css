@@ -2,14 +2,22 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0;
+    background-color: #F2E0D2;
 }
 
 /* write (letter) page */
 main{
     margin-right: 125px;
 }
+a{
+    text-decoration: none;
+    color: #9e182b;
+}
 .header{
-    margin: 20px;
+    margin: 10px;
+}
+p{
+    margin: 0;
 }
 label[for="message"]{
     font-size: 45px;
@@ -18,7 +26,7 @@ label[for="message"]{
     font-style: normal;
 }
 .stickers-bar{
-    background-color: lightpink;
+    background-color: #9e182b;
     width: 200px;
     height: 100vh;
     padding: 0 20px;
@@ -29,7 +37,7 @@ label[for="message"]{
     gap: 30px;
 }
 .letter{
-    background-color: lightblue;
+    background-color: #F5CAC3;
     border-radius: 2%;
     width: 700px;
     height: 500px;
@@ -40,6 +48,9 @@ label[for="message"]{
     display: flex;
     justify-content: flex-end;
 }
+label[for="name"]{
+    font-family: sans-serif;
+}
 #message{ 
     border: none;
     background-color: transparent;
@@ -48,6 +59,13 @@ label[for="message"]{
     box-shadow: none;
     width: 100%;
     height: 100%;
+}
+button{
+    background-color: #9e182b;
+    border-radius: 12%;
+    border: none;
+    color: white;
+    padding: 10px 20px;
 }
 
 /* stickers */

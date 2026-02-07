@@ -1,0 +1,30 @@
+/* flex containers */
+body, main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #F2E0D2;
+    margin: 0;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: #9e182b;
+}
+h1{
+    font-size: 45px;
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+}
+main{
+    flex-wrap: wrap;
+}
+img{
+    width: 150px;
+    margin: 30px;
+}
