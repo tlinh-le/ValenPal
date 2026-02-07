@@ -1,1 +1,29 @@
-/* styling */
+/* flex containers */
+body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+/* write (letter) page */
+main{
+    margin-right: 100px;
+}
+.stickers{
+    background-color: lightpink;
+    width: 250px;
+    height: 100vh;
+    padding: 0 20px;
+}
+.letter{
+    background-color: lightblue;
+    border-radius: 2%;
+    width: 700px;
+    height: 500px;
+    padding: 20px 40px;
+}
+.send{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
